@@ -1,0 +1,44 @@
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    background-color: #000;
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    min-width: 800px;
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#top {
+    background-color: #aaaaaa;
+    margin: 0 auto 30px;
+    width: 850px;
+    text-align: center;
+
+}
+
+#top_wrapper{
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+#top_form{
+
+}
+
+#footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #aaa; /* Цвет фона */
+    color: #000; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+}
